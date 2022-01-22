@@ -112,16 +112,20 @@ h6 {
   margin: 0px;
 }
 
-.flex-parent {
+h6 .flex-parent {
   display: flex;
 }
 
-.flex-parent .flex-item {
+h6 .flex-parent .flex-item {
   padding: 1rem 1rem 1rem 0rem;
 }
 
-.flex-parent > * {
+h6 .flex-parent > * {
   flex-basis: 100%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
 a {
