@@ -233,13 +233,14 @@ a.navbar-brand {
 	//border-bottom: 1px solid #919190;
 	-webkit-box-shadow: 0 0 10px rgba(163, 161, 161, 0.15);
 	box-shadow: 0 0 5px rgba(61, 61, 61, 0.15);
+	background-color:#070707;
 }
 
 .navbar-dark .navbar-nav {
 		.nav-link {
 			font-family: 'Oswald', sans-serif !important;
 			color:#f8f9fa !important;
-			font-weight: 400;
+			font-weight: 300;
 }
 }
 .hero {
@@ -824,6 +825,7 @@ footer {
 	//border-top: 1px solid #919190;
 	font-family: 'Oswald', sans-serif !important;
 	font-weight:300;
+	background-color:#070707;
 	p {
 		color: #e5e5e5;
 	}

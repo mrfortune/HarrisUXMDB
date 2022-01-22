@@ -20,7 +20,7 @@
 </head>
 <body class="d-flex flex-column h-100">
 	<header>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html">WorldShaker Interactive</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,8 +111,11 @@
 				<div class="item-overlay">     
 				<h2 class="mb-3">Fade Tech Solutions</h2>
 				<p>Fade Tech Solutions needed a dashboard design and here is what the team and I came up with.</p><a href="fade.html" class="">Case Study...</a>
-				<img src="img/fadeitem.jpg" class="img-fluid border mt-3 wow fadeInUp"> 
-                        
+				<img src="img/fadeitem.jpg" data-mdb-toggle="animation"
+				data-mdb-animation-start="onScroll"
+				data-mdb-animation="fade-in-up"
+				data-mdb-animation-show-on-load="false"
+				class="mt-5 img-fluid border">         
 			</div>	
             
             </div>
@@ -138,7 +141,11 @@
                     <div class="item-overlay">
                         <h2 class="mt-5 mb-3">BK Wine Cellar's Digital Experience</h2>
                     <p>A local wine store needed a well organized shopping experience for it's customers.</p><a href="winecellar.html" class="">Case Study...</a>
-					<img src="img/bkwineitem.jpg" class="img-fluid border mt-3"> 
+					<img src="img/bkwineitem.jpg" data-mdb-toggle="animation"
+					data-mdb-animation-start="onScroll"
+					data-mdb-animation="fade-in-up"
+					data-mdb-animation-show-on-load="false"
+					class="mt-5 img-fluid"> 
                     </div>
             </div>
                 
@@ -164,7 +171,11 @@
                         <h2 class="mt-5 mb-3">West Side German Shepard Rescue</h2>
                             <p>West Side German Shepard Rescue needed a redesign of their site and here is our solution.</p>
                             <a href="wsgr.html" class="">Case Study...</a>
-							<img src="img/wsgritem.jpg" class="img-fluid border mt-3">
+							<img src="img/wsgritem.jpg" data-mdb-toggle="animation"
+							data-mdb-animation-start="onScroll"
+							data-mdb-animation="fade-in-up"
+							data-mdb-animation-show-on-load="false"
+							class="mt-5 img-fluid">
                     </div>
                     
                 </div>
@@ -182,7 +193,7 @@
 </main>
 
 
-<footer class="footer mt-auto py-3 bg-dark">
+<footer class="footer mt-auto py-3">
 <div class="container">
 		<div class="row">
 			<div class="col"></div>
@@ -194,7 +205,7 @@
 	</div>
 
 </footer>
-	
+<script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- MDB -->
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
