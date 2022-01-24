@@ -119,6 +119,7 @@ h6 {
 	font-family: inherit;
 	line-height: 1.5;
 	margin: 0px;
+}
 .flex-parent{
 	display:flex;
 	.flex-item{
@@ -129,7 +130,7 @@ h6 {
 	flex-basis: 100%;
 	
 }
-}
+
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
@@ -149,12 +150,11 @@ a {
 	}
 }
 ul {
-	list-style: none;
+	list-style:circle;
 	padding: 0;
-	margin-left:20px;
 	webkit-padding: 0;
 	moz-padding: 0;
-}
+	margin-left:20px;
 li{
 	font-weight:400px;
 }
@@ -163,6 +163,7 @@ ol {
 	padding: 0;
 	webkit-padding: 0;
 	moz-padding: 0;
+}
 }
 hr {
 	height: 2px;
@@ -180,13 +181,14 @@ hr {
 //header{
 	//margin-bottom:20px;
 //}//
-main{
-	padding-top:42px;
-	padding-bottom:100px;
-	header{
+header{
 margin-bottom:12px;
-	}
-.container-md{
+}
+main{
+	padding-top:62px;
+	padding-bottom:100px;
+	
+.container{
 	padding: 0px 0px 0px 0px;
 }
 .container{
@@ -223,11 +225,11 @@ a.navbar-brand {
 	text-indent: -9999px;
 	float: left;
 	display: block;
-	background-image: url(../img/logonew.png);
+	background-image: url(../../img/logonewlg2022.png);
 	background-repeat: no-repeat;
 	display: block;
-	width: 160px;
-	height: 30px;
+	width:92px;
+	height: 64px;
 	margin-top:12px;
 }
 .navbar {
@@ -449,50 +451,36 @@ a.navbar-brand {
 }
 .fadeherohome {
 	position: relative;
-	margin-bottom:24px;
 	.hero-overlay {
-		padding:20px;
+		padding:1rem;
 		transform: translateY(4vw);
 	text-align: left;
 	position: absolute;
 	z-index: 0;
-	width: 60%;
 	h1, .h1 {
 		font-size: calc(.675rem + 1.5vw);
-	}
-	h1 {
-		text-transform:uppercase;
-	color: #333;
-	margin-bottom:24px;
-	font-weight: 300;
+		font-weight: 500;
 	}
 	h3{
 		color: #333;
-		font-weight: 300;	
+		font-weight: 300;
+		font-size: calc(.675rem + 1.5vw);
 	}
 }
 }
 .wsgrherohome {
 	position: relative;
-	margin-bottom:24px;
 	.hero-overlay {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		padding:1rem;
 		transform: translateY(4vw);
-		padding:20px;
+		padding:1rem;
 	text-align: left;
 	position: absolute;
 	z-index: 0;
-	width: 60%;
 	h1, .h1 {
 		font-size: calc(.675rem + 1.5vw);
-	}
-	h1 {
+		font-weight:500;
 		text-transform:uppercase;
-
-	color: #333;
-	font-weight: 700;
 	}
 	h3{
 		color: #333;
@@ -505,20 +493,16 @@ a.navbar-brand {
 	height:auto;
 	.hero-overlay {
 	z-index: 0;	transform: translateY(4vw);
-	padding:20px;
+	padding:1rem;
 	position: absolute;
-	width: 70%;
 	h1, .h1 {
 		font-size: calc(.675rem + 1.5vw);
-	}
-	h1 {
-		text-transform:uppercase;
-	color:#333;
-	font-weight: 700;
+		font-weight:500;
 	}
 	h3{
 		color: #333;
-		font-weight: 300;	
+		font-weight: 300;
+		font-size: calc(.675rem + 1.5vw);	
 	}
 }
 }
