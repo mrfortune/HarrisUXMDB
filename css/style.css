@@ -230,12 +230,11 @@ a.navbar-brand {
   text-indent: -9999px;
   float: left;
   display: block;
-  background-image: url(../../img/logonewlg2022.png);
+  background-image: url(../../img/logo2022sm.png);
   background-repeat: no-repeat;
   display: block;
-  width: 92px;
-  height: 64px;
-  margin-top: 12px;
+  width: 150px;
+  height: 34px;
 }
 
 .navbar {
