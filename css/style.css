@@ -11,7 +11,7 @@
   --clr-neutral-900: hsl(0 0% 0%);
   --clr-neutral-100: hsl(0 0% 100%);
   --fs-xxl: clamp(2.5rem, 1vw + 2rem, 12rem);
-  --fs-xl: clamp(2rem, 1vw + 1rem, 12rem);
+  --fs-xl: clamp(1.5rem, 1vw + 1rem, 12rem);
   --fs-900: 4rem;
   --fs-800: 3rem;
   --fs-700: 2.4rem;
@@ -283,9 +283,13 @@ a.navbar-brand {
     color: #333; }
 
 .imagebox {
+  width: 100%;
   display: flex;
   align-items: center;
-  margin: 0 auto; }
+  justify-content: center; }
+  .imagebox P {
+    display: block;
+    clear: both; }
 
 .herohome {
   width: 100vw;
